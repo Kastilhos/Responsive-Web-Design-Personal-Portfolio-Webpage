@@ -1,0 +1,60 @@
+* {
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+html {
+    --top-spacing: 10vh;
+    scroll-margin-top: var(--top-spacing);
+}
+body {
+    margin: var(--top-spacing)auto;
+    background-color: azure;
+    font-size: 20px;
+}
+nav {
+    position: fixed;
+    background-color: black;
+    height: var(--top-spacing);
+    width: 100vw;
+}
+main {
+
+}
+#welcome-section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#projects {
+    background-color: purple;
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+}
+.project-tile {
+    width: 40vw;
+    height: auto;
+    margin: 3rem auto;
+    border: solid 0.1rem black;
+}
+.project-tile a {
+    text-decoration: none;
+}
+.project-snap {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.project-title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    padding: 1.5rem;
+}
