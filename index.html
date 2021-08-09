@@ -6,39 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav></nav>
+    <nav id="navbar">
+        <ul class="ulist">
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
     <main>
         <section id="welcome-section">
             <h1>Hello, I'm Gabriel</h1>
+            <p>A developer in development</p>
         </section>
         <section id="projects">
+            <h1>Take a look at my projects!</h1>
+            <div class="projects-grid">
             <div class="project-tile">
-                <a href="">
+                <a target="_blank" href="https://codepen.io/gcastilhos/full/zYwLVLe">
                     <img class="project-snap" src="https://assets.codepen.io/6602521/internal/screenshots/pens/zYwLVLe.default.png?fit=cover&format=auto&ha=false&height=540&quality=75&v=2&version=1628036833&width=960" alt="Projeto">
                     <p class="project-title">Technical Doumentation Page</p>
                 </a>
             </div>
             <div class="project-tile">
-                <a href="">
+                <a target="_blank" href="https://codepen.io/gcastilhos/full/BaRVgqm">
                     <img class="project-snap" src="https://assets.codepen.io/6602521/internal/screenshots/pens/BaRVgqm.default.png?fit=cover&format=auto&ha=true&height=540&quality=75&v=2&version=1627913731&width=960" alt="Projeto">
                     <p class="project-title">Product Landing Page</p>
                 </a>
             </div>
             <div class="project-tile">
-                <a href="">
+                <a target="_blank" href="https://codepen.io/gcastilhos/full/qBmPEQN">
                     <img class="project-snap" src="https://assets.codepen.io/6602521/internal/screenshots/pens/qBmPEQN.default.png?fit=cover&format=auto&ha=false&height=540&quality=75&v=2&version=1627336562&width=960" alt="Projeto">
                     <p class="project-title">Survey Form</p>
                 </a>
             </div>
             <div class="project-tile">
-                <a href="">
+                <a target="_blank" href="https://codepen.io/gcastilhos/full/xxddOXx">
                     <img class="project-snap" src="https://assets.codepen.io/6602521/internal/screenshots/pens/xxddOXx.default.png?fit=cover&format=auto&ha=true&height=540&quality=75&v=2&version=1626835381&width=960" alt="Projeto">
                     <p class="project-title">Tribute Page</p>
                 </a>
             </div>
+        </div>
         </section>
-    </main>    
+    <footer class="footer">
+        <section id="contact">
+                <a id="profile-link" target="_blank" href="https://github.com/Kastilhos">Git Hub Profile</a>
+        </section>
+    </footer> 
+    </main>  
 </body>
 </html>
